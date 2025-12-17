@@ -3,7 +3,7 @@
 <main>
     <header id="hero_main" class="hero">
         <div class="container">
-            <img id="hero_logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-12-16-cropped.png"
+            <img id="hero_logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-12-16-cropped-transparent.png"
                 alt="Right Way Coaching Life Blog Hero Image">
             <br />
             <br>
