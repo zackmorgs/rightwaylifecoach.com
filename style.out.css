@@ -1,0 +1,394 @@
+/*
+Theme Name: https://rightwaycoachinglife.com/
+Theme URI: https://https://rightwaycoachinglife.com//
+Author: Zack Morgenthaler
+Author URI: https://zackmorgenthaler.com/
+Description: A custom WordPress theme for rightwaycoachinglife.com
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ashbringer
+*/
+/*! modern-normalize v3.0.1 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/*
+Document
+========
+*/
+/**
+Use a better box model (opinionated).
+*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3) */
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.15; /* 1. Correct the line height in all browsers. */
+  -webkit-text-size-adjust: 100%; /* 2. Prevent adjustments of font size after orientation changes in iOS. */
+  tab-size: 4; /* 3. Use a more readable tab size (opinionated). */
+}
+
+/*
+Sections
+========
+*/
+body {
+  margin: 0; /* Remove the margin in all browsers. */
+}
+
+/*
+Text-level semantics
+====================
+*/
+/**
+Add the correct font weight in Chrome and Safari.
+*/
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+2. Correct the odd 'em' font sizing in all browsers.
+*/
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+Add the correct font size in all browsers.
+*/
+small {
+  font-size: 80%;
+}
+
+/**
+Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
+*/
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+Tabular data
+============
+*/
+/**
+Correct table border color inheritance in Chrome and Safari. (https://issues.chromium.org/issues/40615503, https://bugs.webkit.org/show_bug.cgi?id=195016)
+*/
+table {
+  border-color: currentcolor;
+}
+
+/*
+Forms
+=====
+*/
+/**
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+*/
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+Correct the inability to style clickable types in iOS and Safari.
+*/
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
+*/
+legend {
+  padding: 0;
+}
+
+/**
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+progress {
+  vertical-align: baseline;
+}
+
+/**
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to 'inherit' in Safari.
+*/
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Interactive
+===========
+*/
+/*
+Add the correct display in Chrome and Safari.
+*/
+summary {
+  display: list-item;
+}
+
+:root {
+  font-size: 20px;
+  font-family: "Baskervville", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  --primary-color: #cf241a;
+  --primary-shade: #a33029;
+}
+
+html {
+  margin-top: 0 !important;
+}
+
+body {
+  margin: 0;
+}
+
+#frame {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  /* top: 0; */
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#nav_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#nav_bar {
+  background: rgba(255, 255, 255, 0.8392156863);
+  backdrop-filter: blur(0.5rem);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+#nav_home_link {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: opacity 0.3s ease;
+}
+#nav_home_link.active {
+  opacity: 0;
+}
+
+#nav_toggle {
+  padding: 0.25rem;
+  cursor: pointer;
+  appearance: none;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 0.125rem;
+}
+#nav_toggle span {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  display: block;
+  height: 3px;
+  margin: 4px;
+  width: 20px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.open #nav_toggle {
+  background: #e1e1e1;
+}
+.open #nav_toggle span:first-child {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.open #nav_toggle span:nth-child(2) {
+  opacity: 0;
+}
+.open #nav_toggle span:last-child {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+#nav_list {
+  position: absolute;
+  top: 75px;
+  right: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  width: 100%;
+  background: #ffffff;
+  height: 0px;
+  overflow-y: hidden;
+}
+
+.open #nav_list {
+  height: auto;
+  overflow-y: visible;
+  box-shadow: 0px 25px 1rem rgba(0, 0, 0, 0.1);
+  padding: 0 0 0.5rem;
+  background: rgba(255, 255, 255, 0.8549019608);
+  backdrop-filter: blur(0.5rem);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+#hero_main .container {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+#hero_logo {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.btn-primary {
+  margin-top: 2rem;
+  background-color: var(--primary-shade);
+  color: #fff;
+}
+
+.btn-secondary {
+  border: 2px solid var(--primary-shade);
+  color: var(--primary-shade);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: var(--primary-shade);
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.list-content {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+.list-content li {
+  margin-bottom: 0.75rem;
+  line-height: 1.25rem;
+}
+
+.list-ordered-content {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+}
+.list-ordered-content li {
+  margin-bottom: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.out.css.map */

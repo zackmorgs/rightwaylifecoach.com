@@ -1,0 +1,236 @@
+/*
+Theme Name: https://rightwaylifecoach.com/
+Theme URI: https://rightwaylifecoach.com//
+Author: Zack Morgenthaler
+Author URI: https://zackmorgenthaler.com/
+Description: A custom WordPress theme for rightwaycoachinglife.com
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ashbringer
+*/
+
+@use "./node_modules/modern-normalize/modern-normalize.css";
+
+:root {
+    font-size: 20px;
+    font-family: "Baskervville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    --primary-color: #cf241a;
+    --primary-shade: #a33029;
+}
+
+html {
+    margin-top: 0 !important;
+}
+
+body {
+    margin: 0;
+}
+
+
+// frame
+#frame {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#nav_main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+#nav_bar {
+    background: #ffffffd6;
+    backdrop-filter: blur(0.5rem);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+#nav_home_link {
+    // font-family: "Great Vibes", cursive;
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: opacity 0.3s ease;
+
+    &.active {
+        opacity: 0.0;
+    }
+}
+
+#nav_toggle {
+    padding: 0.25rem;
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 0.125rem;
+
+    span {
+        background-color: var(--primary-color);
+        border-radius: 4px;
+        display: block;
+        height: 3px;
+        margin: 4px;
+        width: 20px;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+}
+
+.open {
+    #nav_toggle {
+        background: #e1e1e1;
+
+        span:first-child {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        span:nth-child(2) {
+            opacity: 0;
+        }
+
+        span:last-child {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+    }
+}
+
+#nav_list {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    background: #ffffff;
+    height: 0px;
+    overflow-y: hidden;
+}
+
+.open {
+    #nav_list {
+        height: auto;
+        overflow-y: visible;
+        box-shadow: 0px 25px 1rem rgba(0, 0, 0, 0.1);
+        padding: 0 0 0.5rem;
+        background: #ffffffda;
+        backdrop-filter: blur(0.5rem);
+    }
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    ;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+// hero
+#hero_main {
+    .container {
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+}
+
+#hero_logo {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+
+    text-decoration: none;
+    border-radius: .25rem;
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.btn-primary {
+    margin-top: 2rem;
+    background-color: var(--primary-shade);
+    color: #fff;
+}
+
+
+.btn-secondary {
+    border: 2px solid var(--primary-shade);
+    color: var(--primary-shade);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+h2 {
+    font-size: 1.75rem;
+    color: var(--primary-shade);
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.5rem;
+    margin-top:0.5rem;
+}
+
+.list-content {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    li {
+        margin-bottom: 0.75rem;
+        line-height: 1.25rem;
+    }
+}
+
+.list-ordered-content {
+    list-style-type: decimal;
+    padding-left: 1.5rem;
+    li {
+        margin-bottom: 1.25rem;
+        line-height: 1.5rem;
+    }
+}
+
+.img-circle {
+    border-radius:50%;
+}
