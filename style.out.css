@@ -400,7 +400,7 @@ hr {
   height: 3px;
   margin: 1.25rem auto 1.25rem;
   width: 33.333%;
-  box-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.3335);
+  box-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.16);
 }
 hr.hr-left {
   margin: 1.25rem auto;
