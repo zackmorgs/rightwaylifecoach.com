@@ -6,11 +6,12 @@
             <img id="hero_logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-12-16-cropped.png"
                 alt="Right Way Coaching Life Blog Hero Image">
             <br />
+            <br>
             <a class="btn btn-primary" href="/request-an-appointment/">
                 <span>Request an Appointment</span>
             </a>
             <a href="/about" class="btn btn-secondary">
-                <span>About Robin</span>
+                <span>About</span>
             </a>
         </div>
     </header>
@@ -38,16 +39,17 @@
                         Feel <b>stuck</b>, <b>overwhelmed</b>, or <b>uncertain</b> about next steps
                     </li>
                     <li>
-                        Want support that honors Scripture without judgment
+                        Want <b>support</b> that <b>honors Scripture</b> without <b>judgment</b>
                     </li>
                     <li>
-                        Prefer thoughtful conversation over quick fixes
+                        Prefer <b>thoughtful conversation</b> over <b>quick fixes</b>
                     </li>
                     <li>
-                        Value discernment, prayer, and personal responsibility
+                        Value <b>discernment</b>, <b>prayer</b>, and <b>personal responsibility</b>
                     </li>
                 </ul>
-                <p>This is coaching, not counseling or therapy — focused on growth, clarity, and forward movement.</p>
+                <br>
+                <p>This is <b>coaching</b>, not counseling or therapy — focused on <b>growth</b>, <b>clarity</b>, and <b>forward movement</b>.</p>
             </div>
         </div>
     </section>
@@ -72,10 +74,10 @@
             <br>
             <b>Christian Coaching IS NOT:</b>
             <ul class="list-content">
-                <li>Therapy or mental health treatment</li>
-                <li>Crisis counseling</li>
-                <li>Medical or psychological advice</li>
-                <li>A replacement for church, pastors, or licensed professionals</li>
+                <li><b>Therapy</b> or <b>mental health treatment</b></li>
+                <li><b>Crisis counseling</b></li>
+                <li><b>Medical</b> or <b>psychological</b> advice</li>
+                <li>A replacement for <b>church</b>, <b>pastors</b>, or <b>licensed professionals</b></li>
             </ul>
         </div>
     </section>

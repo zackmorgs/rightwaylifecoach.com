@@ -24,41 +24,44 @@
 <body <?php body_class(); ?>>
     <div id="frame">
         <nav id="nav_main">
-            <div id="nav_bar">
-                <a id="nav_home_link" href="/">
-                    Home
-                </a>
-                <button id="nav_toggle">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </button>
+            <div id="nav_container">
+
+                <div id="nav_bar">
+                    <a id="nav_home_link" href="/">
+                        Home
+                    </a>
+                    <button id="nav_toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                </div>
+                <ul id="nav_list">
+                    <li>
+                        <a class="nav-link" href="/about">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/blog/">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/FAQ/" class="nav-link">
+                            FAQ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/request-an-appointment/" class="nav-link">
+                            Request an Appointment
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/contact/">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul id="nav_list">
-                <li>
-                    <a class="nav-link" href="/about">
-                        About Robin
-                    </a>
-                </li>
-                <li>
-                    <a class="nav-link" href="/blog/">
-                        Blog
-                    </a>
-                </li>
-                <li>
-                    <a href="/FAQ/" class="nav-link">
-                        FAQ
-                    </a>
-                </li>
-                <li>
-                    <a href="/request-an-appointment/" class="nav-link">
-                        Request an Appointment
-                    </a>
-                </li>
-                <li>
-                    <a class="nav-link" href="/contact/">
-                        Contact
-                    </a>
-                </li>
-            </ul>
         </nav>
