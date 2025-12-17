@@ -1,6 +1,9 @@
 <footer>
     <div class="container">
-        <p>&copy; <?php echo date("Y"); ?> Right Way Coaching Life. All rights reserved.</p>
+        <div class="text-center">
+            <p>&copy; <?php echo date("Y"); ?> Right Way Life Coach. </p>
+            <p>All rights reserved.</p>
+        </div>
     </div>
 </footer>
 

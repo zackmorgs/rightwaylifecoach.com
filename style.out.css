@@ -187,6 +187,12 @@ summary {
   display: list-item;
 }
 
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
 :root {
   font-size: 20px;
   font-family: "Baskervville", serif;
@@ -195,6 +201,7 @@ summary {
   font-style: normal;
   --primary-color: #cf241a;
   --primary-shade: #a33029;
+  --shade-opaque: #a32f29c0;
 }
 
 html {
@@ -389,6 +396,63 @@ p {
 
 .img-circle {
   border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    max-width: 32ch;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 56ch;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1280px) {
+  #nav_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8392156863);
+    backdrop-filter: blur(0.5rem);
+  }
+  #nav_bar {
+    max-width: 32ch;
+    background: none;
+  }
+  #nav_home_link.active {
+    opacity: 1;
+  }
+  #nav_toggle {
+    display: none;
+  }
+  #nav_list {
+    background: none;
+    font-size: 0.75rem;
+    position: static;
+    height: auto;
+    overflow-y: visible;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 auto;
+  }
+  .nav-link {
+    background: var(--primary-shade);
+    color: #f1f1f1;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    border: 1px solid transparent;
+    transition: transform 0.3s ease;
+  }
+  .nav-link:hover {
+    transform: scale(1.025);
+    background: none;
+    border: 1px solid var(--primary-shade);
+    color: var(--primary-shade);
+  }
 }
 
 /*# sourceMappingURL=style.out.css.map */
