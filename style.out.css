@@ -341,6 +341,9 @@ b {
 
 .container {
   padding: 1rem;
+  background: linear-gradient(45deg, #f1f1f1, rgba(255, 255, 255, 0.3882352941), #f1f1f1);
+  box-shadow: inset 0px 0px 1rem rgba(225, 225, 225, 0.5);
+  border-bottom: 1px solid #dcdcdc;
 }
 
 .btn {
@@ -382,11 +385,26 @@ h2 {
   font-size: 1.75rem;
   color: var(--primary-shade);
   margin-bottom: 1rem;
+  line-height: 2.25rem;
 }
 
 p {
   line-height: 1.5rem;
   margin-top: 0.5rem;
+}
+
+hr {
+  background-color: #d3d0d0;
+  border: none;
+  border-radius: 0.5rem;
+  height: 3px;
+  margin: 1.25rem auto 1.25rem;
+  width: 33.333%;
+  box-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.3335);
+}
+hr.hr-left {
+  margin: 1.25rem auto;
+  width: 100%;
 }
 
 .list-content {
@@ -423,6 +441,8 @@ p {
   .container {
     max-width: 56ch;
     margin: 0 auto;
+    box-shadow: none;
+    background: transparent;
   }
 }
 @media (min-width: 1280px) {

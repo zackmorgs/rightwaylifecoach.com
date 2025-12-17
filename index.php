@@ -19,6 +19,7 @@
         <div class="container">
             <div class="text-center">
                 <h2>Find Clarity, Peace, and Purpose</h2>
+                <hr>
                 <p>A <b>Christ-centered</b> coaching practice helping women navigate life decisions with <b>prayer</b>,
                     <b>clarity</b>, and
                     <b>grounded support</b>.
@@ -30,6 +31,7 @@
         <div class="container">
             <div class="text-center">
                 <h2>Is This Coaching for You?</h2>
+                <hr>
                 <b>Right Way Coaching serves women who:</b>
                 <ul class="text-left list-content">
                     <li>
@@ -49,13 +51,16 @@
                     </li>
                 </ul>
                 <br>
-                <p>This is <b>coaching</b>, not counseling or therapy — focused on <b>growth</b>, <b>clarity</b>, and <b>forward movement</b>.</p>
+                <p>This is <b>coaching</b>, not counseling or therapy — focused on <b>growth</b>, <b>clarity</b>, and
+                    <b>forward movement</b>.
+                </p>
             </div>
         </div>
     </section>
     <section id="what_it_is_not">
         <div class="container">
             <h2>What Is Christian Coaching?</h2>
+            <hr class="hr-left">
             <b>Christian Coaching IS:</b>
             <ul class="list-content">
                 <li>
@@ -71,7 +76,7 @@
                     A space for <b>reflection</b>, <b>prayer</b>, and <b>wise decision-making</b>.
                 </li>
             </ul>
-            <br>
+            <hr class="hr-left">
             <b>Christian Coaching IS NOT:</b>
             <ul class="list-content">
                 <li><b>Therapy</b> or <b>mental health treatment</b></li>
@@ -87,7 +92,8 @@
                 <h2>Meet Robin Morgenthaler</h2>
                 <img class="img-circle" src="<?php echo get_template_directory_uri(); ?>/assets/img/robin_profile_2.jpg"
                     alt="Robin smiling warmly in a bright, welcoming setting, conveying a sense of calm and encouragement">
-                <p>Robin Morgenthaler is a <b>Christian coach</b> with a heart for walking alongside women during
+                <hr/>
+                    <p>Robin Morgenthaler is a <b>Christian coach</b> with a heart for walking alongside women during
                     seasons of <b>transition</b>,
                     <b>uncertainty</b>, and <b>growth</b>.
                 </p>
@@ -102,6 +108,7 @@
     <section id="how_coaching_works">
         <div class="container">
             <h2 class="text-center">How Coaching Works</h2>
+            <hr>
             <ol class="list-ordered-content">
                 <li>
                     <b>Request a Conversation</b>
@@ -126,7 +133,10 @@
         <div class="container">
             <div class="text-center">
                 <h2>Faith at the Center</h2>
-                <p>Right Way Coaching is <b>grounded</b> in a <b>non-denominational</b> Christian worldview. Sessions are guided by <b>biblical truth</b>, <b>prayerful discernment</b>, and <b>respect</b> for each individual’s journey.</p>
+                <hr>
+                <p>Right Way Coaching is <b>grounded</b> in a <b>non-denominational</b> Christian worldview. Sessions
+                    are guided by <b>biblical truth</b>, <b>prayerful discernment</b>, and <b>respect</b> for each
+                    individual’s journey.</p>
                 <p>All conversations are <b>confidential</b> and approached with <b>grace</b>.</p>
             </div>
         </div>
@@ -135,7 +145,9 @@
         <div class="container">
             <div class="text-center">
                 <h2>Ready to Take the Next Step?</h2>
-                <p>If you’re seeking clarity and faith-centered guidance, you’re welcome to request a coaching conversation.</p>
+                <hr>
+                <p>If you’re seeking clarity and faith-centered guidance, you’re welcome to request a coaching
+                    conversation.</p>
                 <a href="/request-an-appointment" class="btn btn-primary">
                     <span>Request an Appointment</span>
                 </a>
