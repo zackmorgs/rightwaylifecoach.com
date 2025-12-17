@@ -415,8 +415,8 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: rgba(255, 255, 255, 0.8392156863);
     backdrop-filter: blur(0.5rem);
+    padding: 0 0.5rem;
   }
   #nav_bar {
     max-width: 32ch;
@@ -440,18 +440,17 @@ p {
     margin: 0 auto;
   }
   .nav-link {
-    background: var(--primary-shade);
-    color: #f1f1f1;
+    color: var(--primary-shade);
+    background: #f1f1f1;
     border-radius: 0.25rem;
     margin: 0.25rem;
     border: 1px solid transparent;
-    transition: transform 0.3s ease;
+    font-weight: 500;
   }
   .nav-link:hover {
-    transform: scale(1.025);
-    background: none;
-    border: 1px solid var(--primary-shade);
-    color: var(--primary-shade);
+    background: var(--primary-shade);
+    border: 1px solid #f1f1f1;
+    color: #f1f1f1;
   }
 }
 
