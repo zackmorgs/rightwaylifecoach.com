@@ -327,6 +327,23 @@ b {
   display: block;
 }
 
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(45deg, #f1f1f1, hsla(0, 0%, 100%, 0.388), #f1f1f1);
+  border-bottom: 1px solid #dcdcdc;
+  box-shadow: inset 0 0 1rem hsla(0, 0%, 88%, 0.5);
+}
+.hero .container {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
 #hero_main .container {
   text-align: center;
   padding: 2rem 1rem;
@@ -430,11 +447,31 @@ hr.hr-left {
 }
 
 @media (min-width: 768px) {
+  .hero {
+    height: auto;
+  }
   .btn {
     display: inline-flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+  }
+  .list-content {
+    max-width: 48ch;
+    margin: 1.5rem auto 0;
+  }
+  section {
+    background: linear-gradient(45deg, #f1f1f1, hsla(0, 0%, 100%, 0.388), #f1f1f1);
+    border-bottom: 1px solid #dcdcdc;
+    box-shadow: inset 0 0 1rem hsla(0, 0%, 88%, 0.5);
+  }
+  .container {
+    max-width: 56ch;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+    box-shadow: none;
+    border: none;
   }
 }
 @media (min-width: 1024px) {

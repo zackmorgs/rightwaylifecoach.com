@@ -12,31 +12,42 @@
     <section>
         <div class="container">
             <p>
-                She is the wife of Tim Morgenthaler, MD, a practicing pulmonologist specializing in sleep medicine, and
-                together they have lived the realities of medical training and practice for more than forty years. For
-                the past 25 years, they have made their home in Rochester, Minnesota, where Tim practices at Mayo
-                Clinic. Robin and Tim are parents to five grown children and grandparents to five—a role Robin treasures
-                deeply.
+                Robin Morgenthaler is a Christian life coach who comes alongside women seeking clarity, discernment, and
+                faithful forward movement in the midst of life’s transitions. She is first and foremost a mother of five
+                grown children and a grandmother to five—roles she treasures deeply and which have shaped her wisdom,
+                compassion, and steady presence.
+            </p>
+            <p>
+                Robin is also the wife of Tim Morgenthaler, MD, a practicing pulmonologist specializing in sleep
+                medicine.
+                Together, they have lived the realities of medical training and practice for more than forty years. For
+                the
+                past 25 years, they have made their home in Rochester, Minnesota, where Tim practices at Mayo Clinic.
             </p>
             <p>
                 Although Robin trained as a nurse, her primary vocation for four decades has been serving her family and
                 creating spaces where women can grow, connect, and flourish. That calling took clear shape in 1987, when
-                God gave her a vision—one that would eventually become Side By Side, a Christ-centered ministry for
-                women in medical and dental marriages.
+                God
+                gave her a vision—one that would eventually become Side By Side, a Christ-centered ministry for women in
+                medical and dental marriages.
             </p>
             <p>
                 What began in 1988 as six resident wives gathered around Robin’s kitchen table in Rochester has grown,
-                over 37 years, into a global ministry with more than 90 chapters, serving over 1,500 women and 600
-                children across the United States and multiple countries. From the beginning, Side By Side has welcomed
-                women of diverse backgrounds and theological perspectives, united by a shared desire to look to Christ
-                for strength, wisdom, and perseverance in the medical journey.
+                over
+                37 years, into a global ministry with more than 90 chapters, serving over 1,500 women and 600 children
+                across
+                the United States and multiple countries. From the beginning, Side By Side has welcomed women of diverse
+                backgrounds and theological perspectives, united by a shared desire to look to Christ for strength,
+                wisdom,
+                and perseverance in the medical journey.
             </p>
             <p>
-
                 Through decades of listening, praying, teaching, and walking faithfully with women, Robin has gained a
-                deep understanding of the challenges and quiet pressures faced by women connected to medicine—frequent
+                deep
+                understanding of the challenges and quiet pressures faced by women connected to medicine—frequent
                 transitions, long hours, vocational uncertainty, and the call to hold family, faith, and identity
-                together with grace.
+                together
+                with grace.
             </p>
             <p>
                 Today, Robin brings that same steady presence into Christian coaching. Her approach is relational,
@@ -46,11 +57,9 @@
             </p>
             <p>
                 Robin’s heart remains what it has always been: to come alongside women, side by side, as they seek to
-                live faithfully and well in the lives God has entrusted to them.
+                live
+                faithfully and well in the lives God has entrusted to them.
             </p>
-            <a class="btn btn-primary" href="/request-an-appointment">
-                <span>Request an Appointment</span>
-            </a>
         </div>
     </section>
     <section>
