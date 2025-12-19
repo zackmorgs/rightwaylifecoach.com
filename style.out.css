@@ -328,7 +328,6 @@ b {
 }
 
 .hero {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -444,6 +443,15 @@ hr.hr-left {
 
 .img-circle {
   border-radius: 50%;
+}
+
+.permalink {
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.post {
+  color: #292929;
 }
 
 @media (min-width: 768px) {
