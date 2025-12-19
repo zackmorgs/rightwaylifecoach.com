@@ -331,6 +331,11 @@ hr {
 }
 
 @media (min-width: 1024px) {
+    .nav-link.active {
+        background: var(--shade-opaque);
+        color: #f1f1f1;
+    }
+
     .container {
         max-width: 56ch;
         margin: 0 auto;
@@ -395,7 +400,7 @@ hr {
         border-radius: 0.25rem;
         margin: 0.25rem;
         border: 1px solid transparent;
-        transition: border 0.3s ease;
+        transition: border 0.3s ease, background-color 0.3s ease, color 0.3s ease;
         font-weight: 500;
 
         &:hover {

@@ -17,9 +17,11 @@ let init_nav_link = () => {
     }
 
     const navLinks = document.querySelectorAll('#nav_main .nav-link');
-        
+
     navLinks.forEach((link) => {
+        console.log("checking link: " + link.href + " against " + window.location.href);
         if (link.href === window.location.href) {
+            console.log("matched link");
             link.classList.add('active');
         }
     });  

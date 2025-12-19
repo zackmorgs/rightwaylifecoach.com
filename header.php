@@ -38,7 +38,7 @@
                 </div>
                 <ul id="nav_list">
                     <li>
-                        <a class="nav-link" href="/about">
+                        <a class="nav-link" href="/about/">
                             About
                         </a>
                     </li>
