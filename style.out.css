@@ -546,6 +546,16 @@ hr.hr-left {
   display: block;
 }
 
+.wp-block-button__link {
+  background: var(--primary-shade);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   .hero {
     height: auto;
@@ -572,6 +582,9 @@ hr.hr-left {
     background: none;
     box-shadow: none;
     border: none;
+  }
+  .wp-block-button__link {
+    display: inline-block;
   }
 }
 @media (min-width: 1024px) {
